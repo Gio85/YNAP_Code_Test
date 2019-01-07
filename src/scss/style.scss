@@ -1,0 +1,60 @@
+body {
+  font-family: 'Roboto Slab', serif;
+  font-size: 16px;
+  h2{
+    font-size: 2rem;
+  }
+  p{
+    font-size: 1.5rem;
+    margin-top: 0.5%;
+  }
+}
+main {
+  margin: 0 auto;
+  background-color:#f7f6f7;
+}
+
+.section {
+  height: 94vh;
+}
+
+.result_container {
+  margin-top: 3%;
+}
+.form_container {
+  margin-top: 5%;
+}
+
+.helmet {
+  background-image: url('./helmet.jpg');
+  background-repeat: no-repeat;
+  width: 75%;
+  height: 75%;
+  position: absolute;
+  top: 20%;
+  left: 55%;
+}
+
+.result {
+  font-size: 2.5rem;
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.field {
+  width: 50%;
+  margin: 0 auto;
+}
+.button{
+  width: 30%;
+  position: absolute;
+  left: 35%;
+  &.is-primary {
+      background-color: red;
+      border-color: transparent;
+      color: #fff;
+     }
+  
+}
+
