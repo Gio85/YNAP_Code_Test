@@ -6,7 +6,7 @@ Is a Roman number converter.
 ## Setup
 - open your terminal a go to this repository
 - run `yarn install` or `npm install` to install the dependencies
-- open tew different tabs in your terminal
+- open two different tabs in your terminal
 - if you are using yarn, run `yarn start:server` to start the server and `yarn start:client` to run the client side
 - if you are usin npm, run `npm run start:server` and `npm run start:client` in order to run the server and the client side
 
